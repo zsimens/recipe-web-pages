@@ -1,0 +1,40 @@
+head {
+    background-color: greenyellow;
+}
+
+a {
+    text-decoration: none;
+    color: red
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+main {
+    padding: 16px
+}
+
+footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+img {
+    height: 200px;
+}
+
+nav {
+    background-color: greenyellow;
+    border-color: black;
+    border-bottom: 1px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
